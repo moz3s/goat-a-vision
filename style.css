@@ -14,6 +14,10 @@ nav{
 #kecskaction{
     height: 85%;
 }
+#act_cam_goat{
+    height: 100%;
+    width: 100%;
+}
 nav li {
     list-style: none;
     float: left;
