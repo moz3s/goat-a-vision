@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@ nav{
     background-color: rgba(82, 82, 82, 0.685);
     height: 6.5rem;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     padding: 0.8rem;
 
@@ -15,8 +17,7 @@ nav{
     height: 85%;
 }
 #act_cam_goat{
-    height: 40px;
-    width: 40px;
+
 }
 nav li {
     list-style: none;
@@ -40,4 +41,7 @@ nav ul{
     padding-inline-start: 0;
     display: flex;
     align-items: center;
+}
+@media only screen and (min-width: 500px ){
+    
 }
