@@ -10,13 +10,11 @@ header{
     justify-content: space-evenly;
     padding:0.8rem;
 }
-header ul li{
-    float: left;
+header table td{
     padding-left: 2rem;
     padding-top: 1rem;
-    list-style: none;
 }
-header ul li a{
+header table td a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -24,5 +22,5 @@ header ul li a{
 }
 header ul li a:hover{
     text-decoration: underline;
-    
+    transition: 100ms
 }
