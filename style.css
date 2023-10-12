@@ -1,31 +1,27 @@
 body{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
 }
-header{
-    background-color: rgba(0, 0, 0, 0.799);
-    height: 5.5em;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1.2em;
-    padding-right: 1.2em;
+menu{
+    padding: 2rem;
+    margin: 0;
+    width: 15vh;
+    background-color: aqua;
+    display: inline-block;
+    padding-inline-start: 0;
 }
-header table td{
-    padding-left: 2em;
-    padding-top: 0.5em;
+
+#korlogo{
+    width: 15vh;
+    padding-left: 1rem
 }
-header table td a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    transition: 111ms;
+menu ul{
+    padding-inline-start: 2rem;
 }
-header td a:hover{
-    text-decoration: underline;
-    transition: 100ms;
-    font-size: 21px;
+menu ul li {
+    border-bottom: 3px solid black;
+    border-bottom-right-radius: px;
+    list-style: none;
 }
