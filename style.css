@@ -1,46 +1,28 @@
-
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-nav{
-    background-color: rgba(82, 82, 82, 0.685);
-    height: 6.5rem;
+header{
+    background-color: rgba(0, 0, 0, 0.799);
+    height: 5.5rem;
     display: flex;
-    justify-content: space-between;
-    padding: 0.8rem;
-
+    justify-content: space-evenly;
+    padding:0.8rem;
 }
-#kecskaction{
-    height: 85%;
-}
-#act_cam_goat{
-
-}
-nav li {
-    list-style: none;
+header ul li{
     float: left;
-    margin-left: 3rem;
-    font-size: 20px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    list-style: none;
 }
-nav li a {
+header ul li a{
     text-decoration: none;
-    transition: 0.3s;
-    color: aliceblue;
-
+    color: white;
+    font-size: 20px;
+    transition: 111ms;
 }
-nav li a:hover{
+header ul li a:hover{
     text-decoration: underline;
-    color: rgb(223, 252, 255);
-    transition: 0.3s;
-    font-size: 21px;
-}
-nav ul{
-    padding-inline-start: 0;
-    display: flex;
-    align-items: center;
-}
-@media only screen and (min-width: 500px ){
     
 }
