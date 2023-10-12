@@ -6,9 +6,13 @@ body{
 header{
     background-color: rgba(0, 0, 0, 0.799);
     height: 5.5em;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    padding:0.8em;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
 }
 header table td{
     padding-left: 2em;
