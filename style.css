@@ -8,13 +8,15 @@ menu{
     padding: 2rem;
     margin: 0;
     width: fit-content;
-    background-color: rgb(2, 68, 68);
+    background-image: url(img/fu.jpg);
     display: inline-block;
     padding-inline-start: 0;
 }
 
 #korlogo{
     width: 15dvh;
+    min-width: 12rem;
+    max-width: 15rem;
     padding-left: 2rem;
 }
 menu ul{
