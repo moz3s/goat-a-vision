@@ -5,37 +5,49 @@ body{
    
 }
 menu{
-    padding: 2rem;
     margin: 0;
     width: fit-content;
-    background-image: url(img/fu.jpg);
+    background-image: url(img/wood.jpg);
     display: inline-block;
     padding-inline-start: 0;
+    border-bottom-right-radius: 10px ;
 }
 
 #korlogo{
     width: 15dvh;
+    padding: 1rem;
     min-width: 12rem;
     max-width: 15rem;
-    padding-left: 2rem;
 }
 menu ul{
-    padding-inline-start: 2rem;
+    padding-inline-start: 0;
 }
 menu ul li {
-    border-bottom: 3px solid black;
-    border-bottom-right-radius: px;
+    border-bottom: 2px solid rgb(0, 0, 0);
     list-style: none;
     font-size: x-large;
     padding-top: 1vh;
+    padding-left: 1rem;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
+    line-height: 2rem;
 }
 menu a{
     text-decoration: none;
 }
 menu li:hover{
-    background-color: rgb(6, 121, 121);
-    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.hamburger{
+    width: 30px;
+    height: 30px; 
+    padding-left: 80%;
+}
+.line{
+    background-color: aliceblue;
+    height: 2px;
+    border-radius: 1px;
+    margin-top: 6px;
+    padding-top: 3px;
 }
