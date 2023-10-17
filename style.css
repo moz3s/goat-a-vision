@@ -5,6 +5,7 @@ body{
    
 }
 menu{
+    position: fixed;
     margin: 0;
     width: fit-content;
     background-image: url(img/wood.jpg);
@@ -13,6 +14,7 @@ menu{
     border-bottom-right-radius: 10px ;
     z-index: 2;
     transform: translateX(0%);
+    transition: 0.3s;
 }
 
 menu ul{
@@ -39,6 +41,11 @@ menu li:hover{
     width: 30px;
     height: 30px; 
     padding-left: 80%;
+    transition: 0.3s;
+}
+.hamburger:hover{
+    width: 38px;
+    padding-left: 79%;
 }
 .line{
     background-color: rgb(212, 241, 255);
