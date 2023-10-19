@@ -1,16 +1,18 @@
 const menu = document.getElementById("menu");
-const op = document.getElementById('open');
 const cl = document.getElementById('close');
 let clickCount = 0;
-const body = document.querySelector("body");
 function menuOpening(){
    if (clickCount%2 === 0){
-    menu.style.transform = "translateX(-100%)";
-    cl.style.transform = "translateX(30%)";
+    menu.classList.remove('menu1');
+    menu.classList.add('menu2');
+    cl.classList.remove('close1');
+    cl.classList.add('close2');
    }
    else{
-    menu.style.transform = "translate(0%)";
-    cl.style.transform = "translateX(0%)";
+    menu.classList.remove('menu2');
+    menu.classList.add('menu1');
+    cl.classList.add('close1');
+    cl.classList.remove('close2');
    }
    clickCount++;
 }

@@ -1,21 +1,24 @@
 body{
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
    
 }
 menu{
     margin: 0;
+    position: absolute;
     width: fit-content;
     background-image: url(img/wood.jpg);
-    display: inline-block;
     padding-inline-start: 0;
     border-bottom-right-radius: 10px ;
-    z-index: 2;
-    transform: translateX(0%);
+    z-index: 1;
     transition: 0.3s;
 }
-
+.menu1{
+    transform: translateX(0%);
+}
+.menu2{
+    transform: translateX(-100%);
+}
 menu ul{
     padding-inline-start: 0;
 }
@@ -39,37 +42,26 @@ menu li:hover{
 .hamburger{
     width: 30px;
     height: 30px; 
-    padding-left: 80%;
     transition: 0.3s;
     cursor: pointer;
+    z-index: 2;
+    padding: 1rem;
 }
-.open>.hamburger{
-    background-color: blueviolet;
-}
-.hamburger:hover{
-    width: 38px;
-}
+
 .line{
     background-color: rgb(186, 232, 255);
-    height: 2px;
+    height: 4px;
     border-radius: 1px;
     margin-top: 6px;
-    padding-top: 3px;
 }
-#open{
-    display: none;
-    padding: 1rem;
-    transition: 0.3s;
+.close1{
+    transform: translateX(0%);
 }
-#open:hover{
-    padding-left: 0.8rem ;
-}
-#close{
-    padding-left: 80%;
-    padding-top: 1rem;
+.close2{
+    transform: translateX(360%);
 }
 #close:hover{
-    padding-left: 79%;
+    background-color: rgba(0, 0, 0, 0.568);
 }
 #korlogo{
     width: 15dvh;
