@@ -13,6 +13,7 @@ menu{
     border-bottom-right-radius: 10px ;
     z-index: 2;
     transform: translateX(0%);
+    transition: 0.3s;
 }
 
 menu ul{
