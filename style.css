@@ -3,6 +3,17 @@ body{
     margin: 0;
    
 }
+@media only screen and (max-width: 500px){
+
+    menu{
+        transform: translateX(-100%);
+    } 
+    #close{
+        transform: translateX(360%);
+        background-color: rgba(0, 0, 0, 0.568);;
+    }
+}
+
 menu{
     margin: 0;
     position: absolute;
@@ -13,12 +24,7 @@ menu{
     z-index: 1;
     transition: 0.3s;
 }
-.menu1{
-    transform: translateX(0%);
-}
-.menu2{
-    transform: translateX(-100%);
-}
+
 menu ul{
     padding-inline-start: 0;
 }
@@ -47,23 +53,17 @@ menu li:hover{
     z-index: 2;
     padding: 1rem;
 }
-
 .line{
     background-color: rgb(186, 232, 255);
     height: 4px;
     border-radius: 1px;
     margin-top: 6px;
 }
-.close1{
-    transform: translateX(0%);
-}
-.close2{
-    transform: translateX(360%);
-}
+
 #close:hover{
     background-color: rgba(0, 0, 0, 0.568);
 }
 #korlogo{
     width: 12rem;
-    padding: 1rem
+    padding: 1rem;
 }
