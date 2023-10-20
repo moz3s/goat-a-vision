@@ -10,10 +10,9 @@ body{
     } 
     #close{
         transform: translateX(360%);
-        background-color: rgba(0, 0, 0, 0.568);;
+        background-color: rgba(0, 0, 0, 0.568);
     }
 }
-
 menu{
     margin: 0;
     position: absolute;
@@ -59,7 +58,9 @@ menu li:hover{
     border-radius: 1px;
     margin-top: 6px;
 }
-
+#close{
+    border-bottom-right-radius: 10px;
+}
 #close:hover{
     background-color: rgba(0, 0, 0, 0.568);
 }
