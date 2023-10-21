@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 body{
     padding: 0;
     margin: 0;
@@ -12,10 +13,19 @@ body{
         transform: translateX(360%);
         background-color: rgba(0, 0, 0, 0.568);
     }
+    
 }
+@media only screen and (max-width: 768px){
+    .text_box1{
+        float: left;
+        max-width: 50% ;
+    }
+}
+    
+
 menu{
     margin: 0;
-    position: absolute;
+    position: fixed;
     width: fit-content;
     background-image: url(img/wood.jpg);
     padding-inline-start: 0;
@@ -34,9 +44,9 @@ menu ul li {
     padding-top: 1vh;
     padding-left: 1rem;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+    font-family:'IBM Plex Sans', sans-serif;
     line-height: 2rem;
+    font-weight: 550;
 }
 menu a{
     text-decoration: none;
@@ -62,9 +72,39 @@ menu li:hover{
     border-bottom-right-radius: 10px;
 }
 #close:hover{
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.705);
 }
 #korlogo{
     width: 12rem;
     padding: 1rem;
+}
+.main_bar{
+    background-image: url(img/goat.jpg);
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.topline{
+    width: 100vw;
+    height: 70px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color:rgba(0, 0, 0, 0.699) ;
+    display: flex;
+    justify-content: center;
+}
+.text_box1{
+    position: relative;
+    top: 45vh;
+    max-width: 30%;
+    right: 10rem;
+    float: right;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    border: solid 3px #fae278;
+    border-radius: 15px;
+    font-weight: 400;
 }
