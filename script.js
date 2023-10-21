@@ -2,7 +2,7 @@ const menu = document.getElementById("menu");
 const cl = document.getElementById('close');
 let clickCount = 0;
  function menuOpening(){
-    if (window.innerWidth > 500){
+    if (window.innerWidth > 760){
         if (clickCount % 2 === 0) {
             // első kattintás
             menu.style.transform = "translateX(-100%)";

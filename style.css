@@ -4,23 +4,7 @@ body{
     margin: 0;
    
 }
-@media only screen and (max-width: 500px){
 
-    menu{
-        transform: translateX(-100%);
-    } 
-    #close{
-        transform: translateX(360%);
-        background-color: rgba(0, 0, 0, 0.568);
-    }
-    
-}
-@media only screen and (max-width: 768px){
-    .text_box1{
-        float: left;
-        max-width: 50% ;
-    }
-}
     
 
 menu{
@@ -80,7 +64,7 @@ menu li:hover{
 }
 .main_bar{
     background-image: url(img/goat.jpg);
-    height: 75vh;
+    height: 35rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,15 +80,57 @@ menu li:hover{
     justify-content: center;
 }
 .text_box1{
-    position: relative;
-    top: 45vh;
-    max-width: 30%;
-    right: 10rem;
-    float: right;
+    margin-top: 15rem;
+    width: 80%;
+    margin-left: 5%;
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.568);
     color: white;
     border: solid 3px #fae278;
     border-radius: 15px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 380px){
+    .topline {
+        justify-content: right;
+        padding-top: 3.8rem;
+    }
+    .topline img{
+        padding-right: 4%;
+        width: 260px;
+    }
+    .text_box1{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 760px){
+
+    menu{
+        transform: translateX(-100%);
+    } 
+    #close{
+        transform: translateX(360%);
+        background-color: rgba(0, 0, 0, 0.568);
+    }
+    .topline {
+        justify-content: right;
+    }
+    .topline img{
+        padding-right: 4%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .text_box1{
+       float: right;
+       margin-right: 5%;
+       width: 35%;
+       margin-top: 20rem;
+    }
+    .main_bar{
+        height: 40rem;
+    }
 }
